@@ -1,0 +1,105 @@
+main {
+       
+    display: flex;
+  flex-wrap: wrap;
+   margin: 0;
+   padding: 0;
+
+}
+
+.article {
+   
+    height: 400px;
+    width: 50%;
+   align-items: center;
+   flex-wrap: wrap;
+   display: flex;
+   flex-direction: column;
+  
+   text-align: left;
+   }
+
+
+
+.img-1 {
+   background: url(../images/phone.jpg);
+   background-size: cover;
+   background-position: center;
+   width: 50%;
+
+
+}
+
+.article p {
+   color: rgba(0, 0, 0, 0.453);
+    width: 450px;
+    margin-top: 10px;
+    
+
+}
+
+.article h1 {
+    margin-left: -104px;
+    align-items: center;
+}
+
+.img-2 {
+    background: url(../images/pc.jpg);
+    background-size: cover;
+   background-position: center;
+   width: 50%;
+} 
+.img-3 {
+    background: url(../images/kid.jpg);
+    background-size: cover;
+   background-position: center;
+   width: 50%;
+   
+} 
+
+@media (max-width: 768px){
+
+    main {
+        height: 1400px auto !important;
+        width: 100% !important;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+       
+       
+       }
+       
+.article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+  .article p {
+    width: 90%;
+  
+  }
+
+  .article h1 {
+   text-align: center;
+    align-items: center;
+    width: 90%;
+   
+    margin-left: 5px;
+  }
+       .img-1, .img-2, .img-3 {
+        width: 100% !important;
+        height: 500px;
+       }
+   
+.article {
+     display: flex;
+    width: 100% !important;
+    }
+div {
+    flex-direction: column-reverse;
+}
+   
+}

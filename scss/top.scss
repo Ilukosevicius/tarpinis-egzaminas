@@ -1,0 +1,55 @@
+.top {
+    background: white;
+    height: 45px;
+    width: 100%;
+    
+  }
+
+    .start {
+        display: flex;
+        max-width: 1024px;
+        height: 45px;
+        margin: auto;
+        padding: 15px;
+        align-items: center;
+        justify-content: space-between;
+     
+     
+        
+    }
+    
+    
+    .business {
+        display: flex;
+        align-items: center;
+        color: rgba(0, 0, 0, 0.453);
+       
+       
+       
+    }
+    
+      
+    .sign-in {
+        width: 70px;
+        height: 30px;
+        background: rgba(0, 0, 255, 0.62);
+        color: white;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+      
+    }
+
+    @media (max-width: 768px){
+        .start  {
+            margin: 10px;
+            justify-content: center;
+            display: flex;
+       
+           justify-content: space-between;
+            flex-direction: row;
+            width: 90%;
+        }
+    }

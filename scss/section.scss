@@ -1,0 +1,80 @@
+section {
+    background: rgba(161, 160, 160, 0.274);
+     background-size: cover;
+     background-position: center;
+     height: 400px;
+     
+     width: 100%;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     
+     gap: 0 180px ;
+     align-items: center;
+   }
+ 
+ .box {
+     display: flex;
+     justify-content: center;
+     text-align: center;
+     margin:90px 0;
+     height: 400px;
+     width: 400px;
+     gap: 10px;
+    }
+ 
+ .box p {
+  color: rgba(0, 0, 0, 0.453);
+
+  
+  
+ }
+
+  .icon-1 {
+   
+     background: url(../images/display.svg);
+     width: 100px;
+     height: 90px;
+     margin: 10px;
+     background-size: cover;
+     background-position: center;
+     
+  }
+  .icon-2 {
+    background: url(../images/layer.svg);
+    
+     width: 90px;
+     height: 90px;
+     margin: 10px;
+     background-size: cover;
+     background-position: center;
+     
+  }
+  .icon-3 {
+    background: url(../images/check.svg);
+     width: 90px;
+     height: 90px;
+     margin: 10px;
+     background-size: cover;
+     background-position: center;
+  }
+ 
+
+  @media (max-width: 768px){
+
+    section {
+      height: 1000px;
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+        display: flex;
+        gap: 5px;
+       }
+       
+       section p {
+        
+        width: 90%;
+       }
+
+    
+}
